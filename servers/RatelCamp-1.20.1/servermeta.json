@@ -1,0 +1,17 @@
+{
+  "$schema": "file:///C:/Nebula-workspace/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "RatelCamp (Minecraft 1.20.1)",
+    "description": "Main Ratel Camp server. Connect to enter the Realm.",
+    "icon": "https://raw.githubusercontent.com/Kainius/RatelLauncher/master/app/assets/images/server-icon.png",
+    "address": "nayub.kro.kr",
+
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "fabric": {
+    "version": "0.15.11"
+  },
+  "untrackedFiles": []
+}

@@ -1,0 +1,489 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "RatelCamp-1.20.1",
+      "name": "RatelCamp (Minecraft 1.20.1)",
+      "description": "Main Ratel Camp server. Connect to enter the Realm.",
+      "icon": "https://raw.githubusercontent.com/Kainius/RatelLauncher/master/app/assets/images/server-icon.png",
+      "version": "1.0.0",
+      "address": "nayub.kro.kr",
+      "minecraftVersion": "1.20.1",
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.15.11",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1327691,
+            "MD5": "b49fcf1bafc14bcda2472a0f060ebe41",
+            "url": "https://kainius.github.io/Ratel-Nebula/repo/lib/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-fabric-0.15.11",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2849,
+                "MD5": "17692d995fbb782a3db766a559338560",
+                "url": "https://kainius.github.io/Ratel-Nebula/repo/versions/1.20.1-fabric-0.15.11/1.20.1-fabric-0.15.11.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.6",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 123598,
+                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
+                "url": "https://kainius.github.io/Ratel-Nebula/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.6",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34041,
+                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
+                "url": "https://kainius.github.io/Ratel-Nebula/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.6",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72194,
+                "MD5": "9e317c75534bd1da8c00a67c618ab288",
+                "url": "https://kainius.github.io/Ratel-Nebula/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.6",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51935,
+                "MD5": "6062608f1a98afe1e853d01fa1221a9e",
+                "url": "https://kainius.github.io/Ratel-Nebula/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.6",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91131,
+                "MD5": "bd3bc1c176a787373e9a031073c9574b",
+                "url": "https://kainius.github.io/Ratel-Nebula/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.13.3+mixin.0.8.5",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1458875,
+                "MD5": "9dcf01250f72212bf97f0fef55ba5acd",
+                "url": "https://kainius.github.io/Ratel-Nebula/repo/lib/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 573365,
+                "MD5": "3f4768ac751cac3418266d1d7aa15f55",
+                "url": "https://kainius.github.io/Ratel-Nebula/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "io.github.foundationgames:animatica:0.6.1+1.20.4@jar",
+          "name": "Animatica",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 71415,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/fabricmods/required/animatica-0.6.1+1.20.4.jar",
+            "MD5": "62f56949e2f934073f5576fc4758ff4f"
+          }
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.5.1+mc1.20@jar",
+          "name": "AppleSkin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1064362,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/fabricmods/optionalon/appleskin-fabric-mc1.20.1-2.5.1.jar",
+            "MD5": "723370be246a876144ae424cbbfd60f4"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.cominixo:betterf3:7.0.2@jar",
+          "name": "BetterF3",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1782676,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/fabricmods/required/BetterF3-7.0.2-Fabric-1.20.1.jar",
+            "MD5": "acda45b22c255f78f3242056b1221c8e"
+          }
+        },
+        {
+          "id": "com.tterrag:blur:3.1.0@jar",
+          "name": "Blur (Fabric)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 164085,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/fabricmods/required/blur-3.1.0.jar",
+            "MD5": "5c2350374a817c510596dc2e96d5a20a"
+          }
+        },
+        {
+          "id": "generated.fabricmod:caramelchat:1.1.1@jar",
+          "name": "CaramelChat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 130062,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/fabricmods/required/caramelChat-mc1.20.1-fabric-1.1.1.jar",
+            "MD5": "7a52a4adae1c669ae869b53dd49ab615"
+          }
+        },
+        {
+          "id": "com.seibel:distanthorizons:2.1.2-a@jar",
+          "name": "Distant Horizons",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 16460139,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/fabricmods/required/DistantHorizons-2.1.2-a-1.20.1-forge-fabric.jar",
+            "MD5": "57f92f2a0389612da4ce2b3ebc3f26bf"
+          }
+        },
+        {
+          "id": "fuzs.easyshulkerboxes:easyshulkerboxes:8.0.2@jar",
+          "name": "Easy Shulker Boxes",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 616123,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/fabricmods/optionalon/EasyShulkerBoxes-v8.0.2-1.20.1-Fabric.jar",
+            "MD5": "ce884c3d4041b34bf0a77249ebcb9e9c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "ru.tpsd.eatinganimationmod:eatinganimationid:1.20+1.9.61@jar",
+          "name": "Eating Animation",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1218710,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/fabricmods/optionalon/eating-animation-1.20+1.9.61.jar",
+            "MD5": "090eeadcff74ce255e97285f8ab56472"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.6.6@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 66648,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/fabricmods/optionalon/entityculling-fabric-1.6.6-mc1.20.1.jar",
+            "MD5": "e0e7dbb4387ec2ac5fc74f43206e1521"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.superkat:explosiveenhancement:1.2.2-1.20.x@jar",
+          "name": "Explosive Enhancement",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 102550,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/fabricmods/optionalon/explosive-enhancement-1.2.2-1.20.x.jar",
+            "MD5": "5b5ccdd62571812ed2352c1259797454"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.92.2+1.20.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2107289,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/fabricmods/required/fabric-api-0.92.2+1.20.1.jar",
+            "MD5": "92c58961866741106aae126558c9d4a7"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.11.0+kotlin.2.0.0@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7015315,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/fabricmods/required/fabric-language-kotlin-1.11.0+kotlin.2.0.0.jar",
+            "MD5": "ac91311ce91421ca52a96d2a4e4f078c"
+          }
+        },
+        {
+          "id": "randommcsomethin.fallingleaves:fallingleaves:1.15.6@jar",
+          "name": "Falling Leaves",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 156773,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/fabricmods/optionalon/fallingleaves-1.15.6+1.20.1.jar",
+            "MD5": "1d13a592b3c329e2bc10b658161e8429"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "fuzs.forgeconfigapiport.impl:forgeconfigapiport:8.0.0@jar",
+          "name": "Forge Config API Port",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 397198,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/fabricmods/required/ForgeConfigAPIPort-v8.0.0-1.20.1-Fabric.jar",
+            "MD5": "9b680a583230400e887dc545aa974936"
+          }
+        },
+        {
+          "id": "link.infra:indium:1.0.34+mc1.20.1@jar",
+          "name": "Indium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 105359,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/fabricmods/required/indium-1.0.34+mc1.20.1.jar",
+            "MD5": "91f3ce08edec42ee8f6b45fd6ae0c8b3"
+          }
+        },
+        {
+          "id": "net.kyrptonaught:inventorysorter:1.9.0-1.20@jar",
+          "name": "Inventory Sorter",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 222894,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/fabricmods/optionalon/InventorySorter-1.9.0-1.20.jar",
+            "MD5": "2d2f84fefe22a636f54a8368d3276647"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.7.2+mc1.20.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2701293,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/fabricmods/required/iris-1.7.2+mc1.20.1.jar",
+            "MD5": "fde2833d321c3f09020bd456094693d3"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.8.0.11@jar",
+          "name": "Just Enough Items",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1260312,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/fabricmods/optionalon/jei-1.20.1-fabric-15.8.0.11.jar",
+            "MD5": "5fc773c26c569860edb95c6d30e8f422"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.10.0@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7208951,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/fabricmods/optionalon/journeymap-1.20.1-5.10.0-fabric.jar",
+            "MD5": "d89cc9557c1d27d94e9fb46907330f71"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:lithium:0.11.2@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 645865,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/fabricmods/required/lithium-fabric-mc1.20.1-0.11.2.jar",
+            "MD5": "026ca4110d57f16f701b400ad5d2ca26"
+          }
+        },
+        {
+          "id": "net.tschipcraft:make_bubbles_pop:0.3.0-fabric@jar",
+          "name": "Make Bubbles Pop",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 27579,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/fabricmods/optionalon/make_bubbles_pop-0.3.0-fabric-mc1.19.4-1.21.jar",
+            "MD5": "dfe43062ba0ba42f7e44a5ae83c0c6f8"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "ca.fxco:memoryleakfix:1.1.5@jar",
+          "name": "Memory Leak Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 49334,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/fabricmods/required/memoryleakfix-fabric-1.17+-1.1.5.jar",
+            "MD5": "a8461f89d267441752c95beb5448e940"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:modelfix:1.15@jar",
+          "name": "Model Gap Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 65491,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/fabricmods/required/modelfix-1.15-fabric.jar",
+            "MD5": "5503cf88c4ecb768330655258fa9b388"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:7.2.2@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 721366,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/fabricmods/required/modmenu-7.2.2.jar",
+            "MD5": "2629511a2d3b141d9f2a24dc9685637e"
+          }
+        },
+        {
+          "id": "dev.tr7zw:notenoughanimations:1.7.4@jar",
+          "name": "NotEnoughAnimations",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 424028,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/fabricmods/optionalon/notenoughanimations-fabric-1.7.4-mc1.20.1.jar",
+            "MD5": "a55a339f32a5e6a8c2465b5e79130a50"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "su.plo.voice:plasmovoice:2.0.10@jar",
+          "name": "Plasmo Voice",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 11514466,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/fabricmods/required/plasmovoice-fabric-1.20.1-2.0.10.jar",
+            "MD5": "2159f41afbfec273612a8242a949a6da"
+          }
+        },
+        {
+          "id": "eu.ha3:presencefootsteps:1.9.4+1.20.1@jar",
+          "name": "Presence Footsteps",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5733027,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/fabricmods/optionalon/PresenceFootsteps-1.9.4+1.20.1.jar",
+            "MD5": "5d05759103ef318aea55a0cd90d5bd36"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "fuzs.puzzleslib.impl:puzzleslib:8.1.21@jar",
+          "name": "Puzzles Lib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 978795,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/fabricmods/required/PuzzlesLib-v8.1.21-1.20.1-Fabric.jar",
+            "MD5": "eb0c99e235ee5233fcd4063379d92396"
+          }
+        },
+        {
+          "id": "dev.shwg:smoothswapping:0.9.3.1@jar",
+          "name": "Smooth Swapping",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 61986,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/fabricmods/optionalon/smoothswapping-0.9.3.1-1.20.2-fabric.jar",
+            "MD5": "b4410e1317c568a4cd429e62f614dcd8"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.5.11+mc1.20.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 968419,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/fabricmods/required/sodium-fabric-0.5.11+mc1.20.1.jar",
+            "MD5": "9880bae748957d1cb6c4de50c8e0452a"
+          }
+        },
+        {
+          "id": "xyz.trivaxy:tia:1.20-1.1@jar",
+          "name": "Tiny Item Animations",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 18492,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/fabricmods/optionalon/tia-1.20-1.1-fabric.jar",
+            "MD5": "262aef6a6587de46b8238ca1144deea5"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "visuality:visuality:0.7.1+1.20@jar",
+          "name": "Visuality",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 67302,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/fabricmods/required/visuality-0.7.1+1.20.jar",
+            "MD5": "14aaa65078fcff3af29fef4e1d7d2161"
+          }
+        },
+        {
+          "id": "Mc둥근모.zip",
+          "name": "Mc둥근모.zip",
+          "type": "File",
+          "artifact": {
+            "size": 461187,
+            "url": "https://kainius.github.io/Ratel-Nebula/servers/RatelCamp-1.20.1/files/resourcepacks/Mc%EB%91%A5%EA%B7%BC%EB%AA%A8.zip",
+            "MD5": "b0e87140db5b85cbd22edf56aeb8f066",
+            "path": "resourcepacks/Mc둥근모.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
